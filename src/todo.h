@@ -88,8 +88,10 @@ class ToDoList{
         }
 
         void removeTD(){
-            this->toDoList.erase(this->toDoList.begin()+this->selector);
-            this->selector = 0;
+            if(this->toDoList.size()){
+                this->toDoList.erase(this->toDoList.begin()+this->selector);
+                this->selector = 0;
+            } 
         }
 
         void clearTD(){
