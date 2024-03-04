@@ -9,4 +9,4 @@ Technology : C++
 
 ## To compile and execute
 - g++ -o toDoList.exe ./src/main.cpp
-- Linux : toDoList.exe | Windows : ./toDoList.exe
+- Linux : ./toDoList.exe | Windows : toDoList.exe
